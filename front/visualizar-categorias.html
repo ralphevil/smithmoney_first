@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        crossorigin="anonymous">
+        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Smith Money - Categorias</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+    <script src="https://use.fontawesome.com/3e9823b3fb.js"></script>
+</head>
+
+<body class="page-categorias">
+    <main>
+        <div class="container-categorias">
+            <div id="template">
+                <div id="background-template">
+                    <h3><strong>Categorias</strong></h3>
+                </div>
+            </div>
+            <!-- Abas -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#despesas" role="tab">Despesas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#receitas" role="tab">Receitas</a>
+                </li>
+            </ul>
+            <!--Containeres de cada aba -->
+            <div class="tab-content">
+                <div class="tab-pane" id="despesas" role="tabpanel">
+
+                    <ul id="ulDespesas" class="list-group lista-visualizacao-categorias">
+                        <li class="list-group-item categoria-lista-dinamica" onclick="adicionarSubcategoriaEditavel(event)"><i class="fa fa-apple" aria-hidden="true"></i><span> Viagens</span></li>
+                        <li class="list-group-item categoria-lista-dinamica" onclick="adicionarSubcategoriaEditavel(event)"><i class="fa fa-glass color-custom" aria-hidden="true"></i><span>Baladas</span></li>
+                        <li class="list-group-item categoria-lista-dinamica" onclick="adicionarSubcategoriaEditavel(event)"><span>Maquiagem</span></li>
+                    </ul>
+
+                </div>
+                <div class="tab-pane" id="receitas" role="tabpanel">
+                    <ul id="ulReceitas" class="list-group lista-visualizacao-categorias">
+                        <li class="list-group-item categoria-lista-dinamica" onclick="adicionarSubcategoriaEditavel(event)"><i class="fa fa-apple" aria-hidden="true"></i><span> Aluguel</span></li>
+                        <li class="list-group-item categoria-lista-dinamica" onclick="adicionarSubcategoriaEditavel(event)"><i class="fa fa-glass color-custom" aria-hidden="true"></i><span>Proventos</span></li>
+                        
+                    </ul>                    
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <h5><strong>Social</strong></h5>
+            <ul>
+                <li><a href=""><img src="img/social/facebook.png" alt=""></a></li>
+                <li><a href=""><img src="img/social/instagram.png" alt=""></a></li>
+                <li><a href=""><img src="img/social/twitter.png" alt=""></a></li>
+                <li><a href=""><img src="img/social/youtube.png" alt=""></a></li>
+            </ul>
+            <span>2020 - 2020 © <strong>Smith<span style="color: #00B0F0">Money</span></strong>. Todos os direitos
+                reservados</span>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
