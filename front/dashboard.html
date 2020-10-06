@@ -29,7 +29,7 @@
     </button>
 
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light menu-hiden">
             <a class="navbar-brand h1 mb-0 d-flex align-items-center" href="./index.html">
                 <img src="./resourses/img/logo.png" class="img-fluid mt-0" width=45 height=45 alt="Logotipo">
                 <span id="logo-text"><strong style="color: #2669EE">Smith</strong><span style="color: #04A922">Money</span></span>
@@ -55,10 +55,29 @@
             </div>
         </nav>
     </header>
+    <div class="btn-menu">
+        <a><label for="btn-menu">☰ MENU</label></a>
+    </div>
+    
 
-    <main>
+    <div style="margin-top: 800px;">
         <h1>Dashboard</h1>
-    </main>
+    </div>
+
+    
+    <input type="checkbox" id="btn-menu" />
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="#"><img  src="./resourses/img/casa.svg" class="menu-icon"/> Dashboard</a>
+                <a href="#"> Relatorios</a>
+                <a href="#">Despesas</a>
+                <a href="#">Receitas</a>
+                <a href="#">Configurações</a>
+            </nav>
+            <label for="btn-menu">✖️</label>
+        </div>
+    </div>
     
 
     <footer>
