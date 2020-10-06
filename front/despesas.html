@@ -29,7 +29,7 @@
     </button>
 
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light menu-hiden">
             <a class="navbar-brand h1 mb-0 d-flex align-items-center" href="./index.html">
                 <img src="./resourses/img/logo.png" class="img-fluid mt-0" width=45 height=45 alt="Logotipo">
                 <span id="logo-text"><strong style="color: #2669EE">Smith</strong><span style="color: #04A922">Money</span></span>
@@ -55,10 +55,33 @@
             </div>
         </nav>
     </header>
-
-    <main>
+    <div class="btn-menu">
+        <a><label for="btn-menu">☰ MENU</label></a>
+    </div>
+    
+    <div style="margin-top: 500px;">
         <h1>Despesas</h1>
-    </main>
+    </div>
+    
+    <input type="checkbox" id="btn-menu" />
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <p>Menu</p>
+                <a href="#"><img src="./resourses/img/home.svg" class="menu-icon " />Dashboard</a>
+                <a href="#"><img src="./resourses/img/banco.svg" class="menu-icon " />contas</a>
+                <a href="#"><img src="./resourses/img/transacao.svg" class="menu-icon " />Transações</a>
+                <a href="#"><img src="./resourses/img/estatisticas.svg" class="menu-icon " />Relatórios</a>
+                <a href="#"><img src="./resourses/img/despesas.svg" class="menu-icon " />Despesas</a>
+                <a href="#"><img src="./resourses/img/dinheiro.svg" class="menu-icon " />Receitas</a>
+                <a href="#"><img src="./resourses/img/configuracoes.svg" class="menu-icon " />Configurações</a>
+                <div class="footer-verion">
+                    <sapn class="version">SmithMoney 1.0v</span>
+                </div>
+            </nav>
+            <label for="btn-menu">✖️</label>
+        </div>
+    </div>
     
 
     <footer>
